@@ -1,0 +1,1513 @@
+###### ORAS Battle Spot Doubles (VGC 2015) ######
+
+# This file contains all of the sets for ORAS battle 
+# spot doubles, and is compiled into JSON format for 
+# use with Pokemon Showdown using a Python script.
+
+##### File Format:
+# Anything enclosed in [] is optional
+# Any line starting with '#' is commented
+# and will be ignored by the compiler 
+
+# Comments do not currently work in the middle of lines!
+
+# Species (Nickname) @ Item1 / Item2 / ... / itemN
+# Ability: Ability1 / Ability2 / ... / AbilityN
+# EVs: [n HP] / [n Atk] / [n Def] / [n SpD] / [n Spe]
+# [IVs: [n HP] / [n Atk] / [n Def] / [n SpD] / [n Spe]]
+# Nature nature
+# - MoveOption1 / MoveOption2 / ... /MoveOptionN
+# - MoveOption1 / MoveOption2 / ... /MoveOptionN
+# - MoveOption1 / MoveOption2 / ... /MoveOptionN
+# - MoveOption1 / MoveOption2 / ... /MoveOptionN
+
+##### Changelog
+
+# 22/10/2022 - Added the first ~30 Pokemon
+# 24/10/2022 - Added descriptive comments, removed scarf Breloom (too toxic)
+
+#### Top 50 Pokemon (Usage) ####
+
+# Weather-reliant Pokemon (i.e. Excadrill, Ludicolo) 
+# have been left out for balance reasons. They may
+# be added in the future. Smeargle has been left out
+# because ... why. 
+
+### 1: Landorus Therian (4 Sets)
+
+# Standard Landorus
+Landorus-Therian @ Choice Scarf / Assault Vest
+Ability: Intimidate
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant nature
+- U-turn
+- Earthquake
+- Rock Slide
+- Superpower / Knock Off
+
+# Banded Landorus
+Landorus-Therian @ Choice Band
+Ability: Intimidate
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly nature
+- U-Turn
+- Earthquake
+- Rock Slide
+- Superpower / Knock Off
+
+# Frail Landorus
+Landorus-Therian @ Focus Sash / Life Orb
+Ability: Intimidate
+EVs: 4 HP / 252 Atk / 252 Spe
+Adamant nature
+- Protect
+- Earthquake
+- Rock Slide
+- U-turn / Knock Off / Superpower
+
+# Scrubbs's Landorus
+Landorus-Therian @ Assault Vest
+Ability: Intimidate
+EVs: 20 HP / 212 Atk / 4 Def / 20 SpD / 252 Spe
+Adamant nature
+- U-Turn
+- Earthquake
+- Rock Slide
+- Superpower / Knock Off
+
+### 2: Mega Kangaskhan (4 Sets)
+
+# Standard Fast Kangaskhan
+Kangaskhan @ Kangaskhanite
+Ability: Scrappy / Inner Focus
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly nature
+- Return / Double-Edge
+- Low Kick / Power-Up Punch
+- Sucker Punch
+- Fake Out / Protect
+
+# Standard Adamant Kangaskhan
+Kangaskhan @ Kangaskhanite
+Ability: Scrappy / Inner Focus
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant nature
+- Return / Double-Edge
+- Low Kick / Power-Up Punch
+- Sucker Punch
+- Fake Out / Protect
+
+# Shoma's Kangaskhan
+Kangaskhan @ Kangaskhanite
+Ability: Scrappy / Inner Focus
+EVs: 180 HP / 252 Atk / 4 Def / 12 SpD / 60 Spe
+Adamant nature
+- Return / Double-Edge
+- Low Kick / Power-Up Punch
+- Sucker Punch
+- Fake Out / Protect
+
+# Slow Bulky Kangaskhan
+Kangaskhan @ Kangaskhanite
+Ability: Scrappy / Inner Focus
+EVs: 212 HP / 252 Atk / 44 Spe
+Adamant nature
+- Return / Double-Edge
+- Low Kick / Power-Up Punch
+- Sucker Punch
+- Fake Out / Protect
+
+### 3: Heatran (5 Sets)
+
+# Standard Bulky Heatran
+Heatran @ Shuca Berry
+Ability: Flash Fire
+EVs: 196 HP / 52 Def / 252 SpA / 4 SpD / 4 Spe
+IVs: 0 Atk
+Timid nature
+- Protect
+- Substitute / Flash Cannon
+- Heat Wave
+- Earth Power
+
+# Standard Fast Heatran
+Heatran @ Shuca Berry
+Ability: Flash Fire
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Timid nature
+- Protect
+- Substitute / Flash Cannon
+- Heat Wave
+- Earth Power
+
+# Standard Modest Heatran
+Heatran @ Shuca Berry
+Ability: Flash Fire
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Modest nature
+- Protect
+- Substitute / Flash Cannon
+- Heat Wave
+- Earth Power
+
+# Fast Leftovers Heatran
+Heatran @ Leftovers
+Ability: Flash Fire
+EVs: 212 HP / 4 Def / 36 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Timid nature
+- Protect
+- Substitute
+- Heat Wave
+- Earth Power
+
+# Scrubbs's Bulky Heatran
+Heatran @ Shuca Berry
+Ability: Flash Fire
+EVs: 20 Spe / 236 HP / 252 SpA
+IVs: 0 Atk
+Modest nature
+- Protect
+- Substitute / Flash Cannon
+- Heat Wave
+- Earth Power
+
+### 4: Thundurus (4 Sets)
+
+# Offensive Thundurus
+Thundurus @ Focus Sash / Life Orb
+Ability: Prankster
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Timid nature
+- Protect
+- Swagger / Taunt
+- Thunderbolt
+- Hidden Power Ice / Thunder Wave
+
+# Standard Support Thundurus
+Thundurus @ Sitrus Berry / Safety Goggles
+Ability: Prankster
+EVs: 28 Spe / 120 Def / 68 SpD / 252 HP / 36 SpA
+Calm nature
+- Thunderbolt
+- Thunder Wave
+- Swagger / Taunt
+- Protect / Hidden Power Ice
+
+# Shoma's Support Thundurus
+Thundurus @ Sitrus Berry / Safety Goggles
+Ability: Prankster
+EVs: 252 HP / 252 SpD / 4 Spe
+IVs: 0 Atk
+Timid nature
+- Thunderbolt
+- Thunder Wave
+- Swagger / Taunt
+- Protect / Hidden Power Ice
+
+# Scrubb's Support Thundurus
+Thundurus @ Sitrus Berry / Safety Goggles
+Ability: Prankster
+EVs: 68 Spe / 28 Def / 172 SpD / 228 HP / 12 SpA
+Calm nature
+- Thunderbolt
+- Thunder Wave
+- Swagger / Taunt
+- Protect / Hidden Power Ice
+
+# 5: Amoonguss (3 Sets)
+
+# Physically Bulky Amoonguss
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+EVs: 252 HP / 252 Def / 4 SpD
+IVs: 0 Atk / 0 Spe
+Relaxed nature
+- Protect
+- Rage Powder
+- Giga Drain / Energy Ball / Sludge Bomb
+- Spore
+
+# Specially Bulky Amoonguss
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+EVs: 252 HP / 4 Def / 252 SpD
+IVs: 0 Atk / 0 Spe
+Sassy nature
+- Protect
+- Rage Powder
+- Giga Drain / Energy Ball / Sludge Bomb
+- Spore
+
+# Scrubb's Amoonguss
+Amoonguss @ Rocky Helmet
+Ability: Regenerator
+EVs: 132 Def / 140 SpD / 236 HP
+IVs: 0 Spe
+Sassy nature
+- Protect
+- Rage Powder
+- Giga Drain / Energy Ball / Sludge Bomb
+- Spore
+
+### 5: Aegislash (4 Sets)
+
+# Bulky Policy Aegislash
+Aegislash @ Weakness Policy
+Ability: Stance Change
+EVs: 252 HP / 252 SpA / 4 SpD
+IVs: 0 Atk / 0 Spe
+Quiet nature
+- King's Shield
+- Wide Guard
+- Shadow Ball
+- Flash Cannon
+
+# Bulky Leftovers Aegislash
+Aegislash @ Leftovers
+Ability: Stance Change
+EVs: 196 HP / 4 Def / 220 SpA / 4 SpD / 84 Spe
+IVs: 0 Atk
+Modest nature
+- King's Shield
+- Substitute 
+- Toxic
+- Shadow Ball
+
+# Fast Life Orb Aegislash
+Aegislash @ Life Orb
+Ability: Stance Change
+EVs: 196 HP / 4 Def / 220 SpA / 4 SpD / 84 Spe
+IVs: 0 Atk
+Modest nature
+- King's Shield
+- Substitute / Shadow Sneak
+- Flash Cannon
+- Shadow Ball
+
+# Slower Life Orb Aegislash
+Aegislash @ Life Orb
+Ability: Stance Change
+EVs: 252 HP / 220 SpA / 36 Spe
+IVs: 0 Atk
+Modest nature
+- King's Shield
+- Substitute / Shadow Sneak
+- Flash Cannon
+- Shadow Ball
+
+### 6: Cresselia (4 Sets)
+
+# Standard Support Cresselia
+Cresselia @ Sitrus Berry / Safety Goggles / Rocky Helmet / Mental Herb / Leftovers
+Ability: Levitate
+EVs: 212 HP / 60 Def / 236 SpD
+IVs: 0 Atk
+Calm nature
+- Psychic
+- Ice Beam / Icy Wind
+- Trick Room
+- Moonlight / Helping Hand
+
+# Standard Offensive Cresselia
+Cresselia @ Sitrus Berry / Safety Goggles / Rocky Helmet
+Ability: Levitate
+EVs: 252 HP / 4 Def / 244 SpA / 4 SpD / 4 Spe
+IVs: 0 Atk
+Modest nature
+- Psychic
+- Ice Beam
+- Trick Room / Icy Wind
+- Protect / Helping Hand
+
+# Quiet Offensive Cresselia
+Cresselia @ Sitrus Berry / Safety Goggles / Rocky Helmet
+Ability: Levitate
+EVs: 252 HP / 4 Def / 244 SpA / 4 SpD / 4 Spe
+IVs: 0 Atk / 0 Spe
+Quiet nature
+- Psychic
+- Ice Beam
+- Trick Room
+- Protect / Helping Hand
+
+# Fast Calm Mind Cresselia
+Cresselia @ Sitrus Berry / Safety Goggles / Rocky Helmet / Mental Herb / Leftovers
+Ability: Levitate
+EVs: 220 HP / 76 Def / 36 SpA / 4 SpD / 172 Spe
+IVs: 0 Atk
+Bold nature
+- Psychic / Psyshock
+- Icy Wind / Ice Beam
+- Calm Mind
+- Moonlight
+
+# 7: Sylveon (4 Sets)
+
+# Standard Specs Sylveon
+Sylveon @ Choice Specs
+Ability: Pixilate
+EVs: 252 HP / 4 Def / 244 SpA / 4 SpD / 4 Spe
+IVs: 0 Atk
+Modest nature
+- Hyper Voice
+- Hyper Beam
+- Psyshock / Hidden Power Ground
+- Shadow Ball
+
+# Fast Specs Sylveon
+Sylveon @ Choice Specs
+Ability: Pixilate
+EVs: 92 HP / 116 Def / 220 SpA / 4 SpD / 76 Spe
+IVs: 0 Atk
+Modest nature
+- Hyper Voice
+- Hyper Beam
+- Psyshock / Hidden Power Ground
+- Shadow Ball
+
+# Fast Pixie Plate Sylveon
+Sylveon @ Pixie Plate
+Ability: Pixilate
+EVs: 92 HP / 116 Def / 220 SpA / 4 SpD / 76 Spe
+IVs: 0 Atk
+Modest nature
+- Protect / Detect
+- Helping Hand / Hidden Power Ground / Calm Mind / Quick Attack / Moonblast
+- Hyper Voice
+- Hyper Beam
+
+# Bulky Pixie Plate Sylveon
+Sylveon @ Pixie Plate
+Ability: Pixilate
+EVs: 164 HP / 212 Def / 116 SpA / 4 SpD / 12 Spe
+IVs: 0 Atk
+Modest nature
+- Protect / Detect
+- Helping Hand / Hidden Power Ground / Calm Mind / Quick Attack / Moonblast
+- Hyper Voice
+- Hyper Beam
+
+### 8: Charizard (8 Sets)
+## 6 Mega Y (75%), 2 Mega X (25%)
+
+# Fast Zard Y
+Charizard @ Charizardite Y
+Ability: Blaze
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Timid nature
+- Protect
+- Overheat / Flamethrower / Hidden Power Ground / Tailwind
+- Heat Wave
+- Solar Beam
+
+# Modest Zard Y
+Charizard @ Charizardite Y
+Ability: Blaze
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Modest nature
+- Protect
+- Overheat / Flamethrower / Hidden Power Ground / Tailwind
+- Heat Wave
+- Solar Beam
+
+# Fast Bulky Zard Y
+Charizard @ Charizardite Y
+Ability: Blaze
+EVs: 252 HP / 4 Def / 4 SpA / 20 SpD / 228 Spe
+IVs: 0 Atk
+Timid nature
+- Protect
+- Tailwind / Hidden Power Ground
+- Flamethrower / Overheat
+- Solar Beam
+
+# Standard Bulky Zard Y
+Charizard @ Charizardite Y
+Ability: Blaze
+EVs: 252 HP / 4 Def / 36 SpA / 20 SpD / 196 Spe
+IVs: 0 Atk
+Modest nature
+- Protect
+- Tailwind / Hidden Power Ground
+- Heat Wave / Flamethrower / Overheat
+- Solar Beam
+
+# Scrubb's Bulky Zard Y
+Charizard @ Charizardite Y
+Ability: Blaze
+EVs: 252 HP / 4 Def / 44 SpA / 20 SpD / 188 Spe
+IVs: 0 Atk
+Modest nature
+- Protect
+- Tailwind / Hidden Power Ground
+- Heat Wave / Flamethrower / Overheat
+- Solar Beam
+
+# Slow Bulky Zard Y
+Charizard @ Charizardite Y
+Ability: Blaze
+EVs: 252 HP / 28 Def / 60 SpA / 12 SpD / 156 Spe
+IVs: 0 Atk
+Modest nature
+- Protect
+- Tailwind / Hidden Power Ground
+- Heat Wave / Flamethrower / Overheat
+- Solar Beam
+
+# Dragon Dance Charizard X
+Charizard @ Charizardite X
+Ability: Blaze
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant nature
+- Protect
+- Dragon Dance
+- Dragon Claw / Roost
+- Flare Blitz
+
+# Bulky (Wolfe-Inspired) Charizard X
+Charizard @ Charizardite X
+Ability: Blaze
+EVs: 252 HP / 4 Atk / 4 Def / 220 SpD / 28 Spe
+Adamant nature
+- Protect
+- Will-O-Wisp
+- Roost
+- Flare Blitz
+
+### 9: Milotic (2 Sets)
+
+# Standard Bold Milotic
+Milotic @ Maranga Berry / Sitrus Berry / Leftovers
+Ability: Competitive
+EVs: 252 HP / 252 Def / 4 SpA 
+IVs: 0 Atk
+Bold nature
+- Protect 
+- Recover
+- Scald
+- Icy Wind / Ice Beam / Toxic
+
+# Standard Modest Milotic
+Milotic @ Maranga Berry / Sitrus Berry / Leftovers
+Ability: Competitive
+EVs: 236 HP / 140 Def / 132 SpA
+IVs: 0 Atk
+Modest nature
+- Protect 
+- Recover
+- Scald
+- Icy Wind / Ice Beam / Toxic
+
+### 10: Gardevoir (4 Sets)
+
+# Fast Offensive Mega Gardevoir
+Gardevoir @ Gardevoirite
+Ability: Trace
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Timid nature
+- Protect
+- Ally Switch / Encore / Imprison / Hidden Power Ground
+- Hyper Voice
+- Psychic
+
+# Modest Offensive Mega Gardevoir
+Gardevoir @ Gardevoirite
+Ability: Trace
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Timid nature
+- Protect
+- Trick Room / Ally Switch / Encore / Hidden Power Ground
+- Hyper Voice
+- Psychic
+
+# Scar's Bulky Trick Room Gardevoir
+Gardevoir @ Gardevoirite
+Ability: Trace
+EVs: 252 HP / 116 Def / 116 SpA / 4 SpD / 20 Spe
+IVs: 0 Atk
+Modest nature
+- Protect
+- Trick Room
+- Hyper Voice
+- Psychic
+
+# Scrubb's Bulky Trick Room Gardevoir
+Gardevoir @ Gardevoirite
+Ability: Trace
+EVs: 172 HP / 100 Def / 196 SpA / 12 SpD / 28 Spe
+IVs: 0 Atk
+Modest nature
+- Protect
+- Trick Room
+- Hyper Voice
+- Psychic
+
+### 11: Salamence (6 Sets)
+## 2 Special (33.3%), 2 Physical (33.3%), 2 Mixed (33.3%)
+
+# Special Salamence
+Salamence @ Salamencite
+Ability: Intimidate
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Timid nature
+- Protect
+- Hyper Voice
+- Draco Meteor
+- Flamethrower / Fire Blast / Tailwind
+
+# Modest Special Salamence
+Salamence @ Salamencite
+Ability: Intimidate
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Modest nature
+- Protect
+- Hyper Voice
+- Draco Meteor
+- Flamethrower / Fire Blast / Tailwind
+
+# Fast Physical Salamence
+Salamence @ Salamencite
+Ability: Intimidate
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly nature
+- Protect
+- Dragon Dance
+- Double-Edge / Return
+- Earthquake / Dragon Claw / Roost
+
+# Adamant Physical Salamence
+Salamence @ Salamencite
+Ability: Intimidate
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant nature
+- Protect
+- Dragon Dance
+- Double-Edge / Return
+- Earthquake / Dragon Claw / Roost
+
+# Mixed Salamence
+Salamence @ Salamencite
+Ability: Intimidate
+EVs: 44 Atk / 212 SpA / 252 Spe
+Naive nature
+- Protect
+- Hyper Voice
+- Double Edge
+- Tailwind / Roost / Flamethrower / Draco Meteor
+
+# Bulky(ish) Mixed Salamence
+Salamence @ Salamencite
+Ability: Intimidate
+EVs: 20 HP / 44 Atk / 172 SpA / 20 SpD / 252 Spe
+Naive nature
+- Protect
+- Hyper Voice
+- Double Edge
+- Tailwind / Roost / Flamethrower / Draco Meteor
+
+### 12: Tyranitar (4 Sets)
+
+# Mega Tyranitar
+Tyranitar @ Tyranitarite
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly nature
+- Protect
+- Dragon Dance
+- Rock Slide
+- Crunch
+
+# Physical Scarf Tyranitar
+Tyranitar @ Choice Scarf
+Ability: Sand Stream
+EVs: 12 HP / 236 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly nature
+- Rock Slide
+- Crunch / Assurance
+- Ice Punch / Ice Beam / Earthquake
+- Low Kick / Superpower
+
+# Special Scarf Tyranitar
+Tyranitar @ Choice Scarf
+Ability: Sand Stream
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid nature
+- Rock Slide
+- Dark Pulse
+- Flamethrower
+- Ice Beam
+
+# Bulky Tyranitar
+Tyranitar @ Weakness Policy / Life Orb / Lum Berry / Chople Berry
+Ability: Sand Stream
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant nature
+- Protect
+- Rock Slide
+- Crunch
+- Low Kick / Superpower
+
+### 13: Conkeldurr (4 Sets)
+
+# Assault Vest Conkeldurr
+Conkeldurr @ Assault Vest
+Ability: Guts / Iron Fist
+EVs: 20 HP / 244 Atk / 12 Def / 228 SpD / 4 Spe
+Adamant nature
+- Mach Punch
+- Drain Punch
+- Ice Punch / Stone Edge / Rock Tomb
+- Knock Off
+
+# Life Orb Conkeldurr
+Conkeldurr @ Life Orb
+Ability: Iron Fist / Guts
+EVs: 100 HP / 116 Atk / 140 Def / 68 SpD / 84 Spe
+Adamant nature
+- Detect / Wide Guard
+- Ice Punch / Knock Off / Stone Edge / Rock Tomb
+- Drain Punch
+- Mach Punch
+
+# Trick Room Conkeldurr
+Conkeldurr @ Life Orb
+Ability: Iron Fist / Guts
+EVs: 212 HP / 252 Atk / 44 SpD
+IVs: 0 Atk
+Brave nature
+- Detect / Wide Guard
+- Ice Punch / Knock Off / Stone Edge / Rock Tomb
+- Drain Punch / Hammer Arm
+- Mach Punch
+
+# Flame Orb Conkeldurr
+Conkeldurr @ Flame Orb
+Ability: Guts
+EVs: 100 HP / 116 Atk / 140 Def / 68 SpD / 84 Spe
+Adamant nature
+- Detect
+- Ice Punch / Knock Off / Stone Edge / Rock Tomb
+- Drain Punch
+- Mach Punch
+
+### 14: Scrafty (4 Sets)
+
+# Bulky Assault Vest Scrafty
+Scrafty @ Assault Vest
+Ability: Intimidate
+EVs: 252 HP / 164 Atk / 92 SpD
+Careful nature
+- Knock Off
+- Drain Punch
+- Stone Edge / Ice Punch / Super Fang
+- Fake Out
+
+# Fast Adamant Scrafty
+Scrafty @ Lum Berry / Sitrus Berry / Eject Button / Safety Goggles
+Ability: Intimidate
+EVs: 252 HP / 180 Atk / 28 Def / 4 SpD / 44 Spe
+Adamant nature
+- Protect / Detect / Quick Guard
+- Drain Punch
+- Knock Off
+- Fake Out
+
+# Standard Adamant Scrafty
+Scrafty @ Lum Berry / Sitrus Berry / Eject Button / Safety Goggles
+Ability: Intimidate
+EVs: 252 HP / 244 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant nature
+- Protect / Detect / Quick Guard
+- Drain Punch
+- Knock Off
+- Fake Out
+
+# Brave Trick Room Scrafty
+Scrafty @ Lum Berry / Sitrus Berry / Eject Button / Safety Goggles
+Ability: Intimidate
+EVs: 252 HP / 252 Atk / 4 SpD 
+IVs: 0 Spe
+Brave nature
+- Protect / Detect / Quick Guard
+- Drain Punch
+- Knock Off
+- Fake Out
+
+### 15: Rotom-Wash (4 Sets)
+
+# Standard Bulky Rotom-Wash
+Rotom-Wash @ Sitrus Berry
+Ability: Leviate
+EVs: 252 HP / 36 Def / 36 SpA / 44 SpD / 140 Spe
+IVs: 0 Atk
+Calm nature
+- Protect
+- Hydro Pump
+- Thunderbolt / Volt Switch
+- Will-O-Wisp / Thunder Wave
+
+# Specially Bulky Rotom-Wash
+Rotom-Wash @ Sitrus Berry
+Ability: Leviate
+EVs: 252 HP / 4 Def / 28 SpA / 92 SpD / 132 Spe
+IVs: 0 Atk
+Calm nature
+- Protect
+- Hydro Pump
+- Thunderbolt / Volt Switch
+- Will-O-Wisp / Thunder Wave
+
+# Modest Bulky Rotom-Wash
+Rotom-Wash @ Sitrus Berry
+Ability: Leviate
+EVs: 252 HP / 124 Def / 4 SpA / 96 SpD / 28 Spe
+IVs: 0 Atk
+Modest nature
+- Protect
+- Hydro Pump
+- Thunderbolt / Volt Switch
+- Will-O-Wisp / Thunder Wave
+
+# Choiced Rotom-Wash
+Rotom-Wash @ Choice Specs / Choice Scarf
+Ability: Levitate
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Timid nature
+- Trick
+- Hydro Pump
+- Volt Switch
+- Thunderbolt / Will-O-Wisp / Thunder Wave
+
+### 16: Zapdos (4 Sets)
+
+# Fast Offensive Zapdos
+Zapdos @ Sitrus Berry / Safety Goggles / Expert Belt / Life Orb
+Ability: Pressure
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Timid nature
+- Thunderbolt
+- Hidden Power Ice
+- Tailwind / Heat Wave
+- Protect / Roost
+
+# Modest Offensive Zapdos
+Zapdos @ Sitrus Berry / Safety Goggles / Expert Belt / Life Orb
+Ability: Pressure
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Modest nature
+- Thunderbolt
+- Hidden Power Ice
+- Tailwind / Heat Wave
+- Protect / Roost
+
+# Specially Bulky Zapdos
+Zapdos @ Sitrus Berry / Weakness Policy / Safety Goggles
+Ability: Pressure
+EVs: 252 HP / 80 Def / 4 SpA / 140 SpD / 28 Spe
+IVs: 0 Atk
+Calm nature
+- Thunderbolt
+- Hidden Power Ice
+- Tailwind / Heat Wave
+- Roost
+
+# Physically Bulky Zapdos
+Zapdos @ Sitrus Berry / Weakness Policy / Safety Goggles
+Ability: Pressure
+EVs: 252 HP / 160 Def / 52 SpA / 12 SpD / 28 Spe
+IVs: 0 Atk
+Bold nature
+- Thunderbolt
+- Hidden Power Ice
+- Tailwind / Heat Wave
+- Roost
+
+### 17: Bisharp (2 Sets)
+
+# Standard Bisharp
+Bisharp @ Life Orb / Focus Sash
+Ability: Defiant
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant nature
+- Protect
+- Sucker Punch
+- Iron Head
+- Knock Off
+
+# Banded Bisharp
+Bisharp @ Choice Band
+Ability: Defiant
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant nature
+- Sucker Punch
+- Iron Head
+- Knock Off
+- Brick Break / Stone Edge
+
+### 18: Gengar (4 Sets)
+
+# Perish Mega Gengar
+Gengar @ Gengarite
+Ability: Levitate
+EVs: 252 HP / 44 Def / 4 SpA / 28 SpD / 180 Spe
+IVs: 0 Atk
+Timid nature
+- Protect
+- Disable / Substitute
+- Perish Song
+- Shadow Ball
+
+# Bulky Offensive Mega Gengar
+Gengar @ Gengarite
+Ability: Levitate
+EVs: 252 HP / 44 Def / 4 SpA / 28 SpD / 180 Spe
+IVs: 0 Atk
+Timid nature
+- Protect
+- Icy Wind / Substitute / Will-O-Wisp / Taunt
+- Sludge Bomb 
+- Shadow Ball
+
+# Offensive Mega Gengar
+Gengar @ Gengarite
+Ability: Levitate
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Timid nature
+- Protect
+- Icy Wind / Substitute / Will-O-Wisp / Taunt
+- Sludge Bomb
+- Shadow Ball
+
+# Focus Sash Gengar
+Gengar @ Focus Sash
+Ability: Levitate
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid nature
+- Protect 
+- Shadow Ball
+- Sludge Bomb
+- Icy Wind / Will-O-Wisp / Taunt
+
+### 19: Hydreigon (4 Sets)
+
+# Timid Specs Hydreigon
+Hydreigon @ Choice Specs
+Ability: Levitate
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Timid nature
+- Dark Pulse
+- Draco Meteor
+- Earth Power
+- Flamethrower / Fire Blast / Hidden Power Ice
+
+# Modest Choiced Hydreigon
+Hydreigon @ Choice Specs / Choice Scarf
+Ability: Levitate
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Modest nature
+- Dark Pulse
+- Draco Meteor
+- Earth Power
+- Flamethrower / Fire Blast / Hidden Power Ice
+
+# Standard Fast Hydreigon
+Hydreigon @ Life Orb / Focus Sash / Black Glasses
+Ability: Levitate
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Timid nature
+- Protect
+- Draco Meteor
+- Dark Pulse
+- Earth Power / Flamethrower / Fire Blast / Tailwind
+
+# Bulky Hydreigon
+Hydreigon @ Life Orb / Focus Sash / Black Glasses
+Ability: Levitate
+EVs: 108 HP / 44 Def / 124 SpA / 4 SpD / 228 Spe
+IVs: 0 Atk
+Modest nature
+- Protect
+- Draco Meteor
+- Dark Pulse
+- Earth Power / Flamethrower / Fire Blast / Tailwind
+
+### 20: Azumarill (4 Sets)
+
+# Standard Drum Azumarill
+Azumarill @ Sitrus Berry
+Ability: Huge Power
+EVs: 196 HP / 252 Atk / 20 Def / 12 SpD / 28 Spe
+Adamant nature
+- Protect
+- Belly Drum
+- Aqua Jet
+- Play Rough / Knock Off / Return
+
+# Bulky Drum Azumarill
+Azumarill @ Sitrus Berry
+Ability: Huge Power
+EVs: 228 HP / 252 Atk / 4 Def / 20 SpD / 4 Spe
+Adamant nature
+- Protect
+- Belly Drum
+- Aqua Jet
+- Play Rough / Knock Off / Return
+
+# Specially Defensive Drum Azumarill
+Azumarill @ Sitrus Berry
+Ability: Huge Power
+EVs: 164 SpD / 204 Atk / 36 Def / 100 SpD / 4 Spe
+Adamant nature
+- Protect
+- Belly Drum
+- Aqua Jet
+- Play Rough / Knock Off / Return
+
+# Assault Vest / Banded Azumarill
+Azumarill @ Assault Vest / Choice Band
+Ability: Huge Power
+EVs: 244 HP / 252 Atk / 4 Def / 4 SpD / 4 Spe
+Adamant nature
+- Play Rough
+- Waterfall
+- Aqua Jet
+- Knock Off / Return / Superpower
+
+### 21: Talonflame (4 Sets)
+
+# Jolly Banded Talonflame
+Talonflame @ Choice Band
+Ability: Gale Wings
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant nature
+- Brave Bird
+- Flare Blitz
+- U-Turn
+- Sleep Talk / Giga Impact
+
+# Adamant Banded Talonflame
+Talonflame @ Choice Band
+Ability: Gale Wings
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant nature
+- Brave Bird
+- Flare Blitz
+- U-Turn
+- Sleep Talk / Giga Impact
+
+# Standard Tailwind Talonflame
+Talonflame @ Life Orb / Sky Plate
+Ability: Gale Wings
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant nature
+- Tailwind
+- Protect / Will-O-Wisp / Quick Guard / Taunt
+- Brave Bird
+- Flare Blitz
+
+# Mixed Talonflame
+Talonflame @ Life Orb
+Ability: Gale Wings
+EVs: 244 Atk / 12 SpA / 252 Spe
+Naughty nature
+- Protect / Tailwind
+- Overheat
+- Brave Bird
+- Flare Blitz
+
+### 22: Volcarona (4 Sets)
+
+# Fast Quiver Dance Volcarona
+Volcarona @ Lum Berry / Rocky Helmet
+Ability: Flame Body
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Timid nature
+- Protect
+- Quiver Dance
+- Heat Wave / Flamethrower / Fiery Dance
+- Giga Drain / Bug Buzz / Hidden Power Ground
+
+# Modest Quiver Dance Volcarona
+Volcarona @ Lum Berry / Rocky Helmet
+Ability: Flame Body
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+IVs: 0 Atk
+Modest nature
+- Protect
+- Quiver Dance
+- Heat Wave / Flamethrower / Fiery Dance
+- Giga Drain / Bug Buzz / Hidden Power Ground
+
+# Bulky Quiver Dance Volcarona
+Volcarona @ Lum Berry / Sitrus Berry / Rocky Helmet
+Ability: Flame Body
+EVs: 172 HP / 144 SpA / 192 Spe
+IVs: 0 Atk
+Modest nature
+- Protect
+- Quiver Dance
+- Heat Wave / Flamethrower / Fiery Dance
+- Giga Drain / Bug Buzz / Hidden Power Ground
+
+# Bulky Rage Powder Volcarona
+Volcarona @ Lum Berry / Sitrus Berry / Rocky Helmet
+Ability: Flame Body
+EVs: 228 HP / 204 Def / 36 SpA / 36 Spe
+IVs: 0 Atk
+Modest nature
+- Protect
+- Rage Powder
+- Heat Wave / Flamethrower / Overheat / Fiery Dance
+- Giga Drain / Bug Buzz / Tailwind
+
+### 23: Suicune (4 Sets)
+
+# Fast Support Suicune
+Suicune @ Sitrus Berry / Leftovers / Rocky Helmet
+Ability: Pressure
+EVs: 252 HP / 4 Def / 76 SpA / 36 SpD / 140 Spe
+IVs: 0 Atk
+Timid nature
+- Protect / Snarl
+- Scald
+- Ice Beam / Icy Wind
+- Tailwind
+
+# Modest Support Suicune
+Suicune @ Sitrus Berry / Leftovers / Rocky Helmet
+Ability: Pressure
+EVs: 212 HP / 4 Def / 252 SpA / 4 SpD / 36 Spe
+IVs: 0 Atk
+Modest nature
+- Protect / Snarl
+- Scald
+- Ice Beam / Icy Wind
+- Tailwind
+
+# Bulky Support Suicune
+Suicune @ Sitrus Berry / Leftovers / Rocky Helmet
+Ability: Pressure
+EVs: 252 HP / 100 Def / 100 SpA / 52 SpD / 4 Spe
+IVs: 0 Atk
+Bold nature
+- Protect / Snarl
+- Scald
+- Ice Beam / Icy Wind
+- Tailwind
+
+# Chesto Rest Suicune
+Suicune @ Chesto Berry
+Ability: Pressure
+EVs: 252 HP / 156 Def / 76 SpA / 4 SpD / 20 Spe
+IVs: 0 Atk
+Bold nature
+- Scald
+- Ice Beam / Icy Wind
+- Calm Mind
+- Rest
+
+### 24: Rotom-Heat (4 Variations)
+
+# Fast Rotom-Heat
+Rotom-Heat @ Sitrus Berry / Safety Goggles
+Ability: Levitate
+EVs: 244 HP / 4 Def / 92 SpA / 4 SpD / 164 Spe
+Modest nature
+- Protect
+- Overheat
+- Thunderbolt
+- Will-O-Wisp / Thunder Wave / Light Screen
+
+# Standard Rotom-Heat
+Rotom-Heat @ Sitrus Berry / Safety Goggles
+Ability: Levitate
+EVs: 252 HP / 4 Def / 108 SpA / 4 SpD / 140 Spe
+Modest nature
+- Protect
+- Overheat
+- Thunderbolt
+- Will-O-Wisp / Thunder Wave / Light Screen
+
+# Physically Defensive Rotom-Heat
+Rotom-Heat @ Sitrus Berry / Safety Goggles
+Ability: Levitate
+EVs: 252 HP / 92 Def / 20 SpD / 140 Spe
+Bold nature
+- Protect
+- Overheat
+- Thunderbolt
+- Will-O-Wisp / Thunder Wave / Light Screen
+
+# Choiced Rotom-Heat
+Rotom-Heat @ Choice Specs / Choice Scarf
+Ability: Levitate
+EVs: 4 HP / 4 Def / 244 SpA / 4 SpD / 252 Spe
+Timid nature
+- Volt Switch
+- Overheat
+- Thunderbolt / Hidden Power Ice
+- Trick
+
+### 25: Terrakion (2 Variations)
+
+# Standard Terrakion
+Terrakion @ Lum Berry / Focus Sash
+Ability: Justified
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly nature
+- Protect
+- Quick Guard / Taunt / Poison Jab / Swords Dance / Double Kick / Substitute
+- Close Combat
+- Rock Slide
+
+# Life Orb Terrakion
+Terrakion @ Life Orb
+Ability: Justified
+EVs: 36 HP / 212 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly nature
+- Protect
+- Quick Guard / Taunt / Poison Jab / Swords Dance / Double Kick
+- Close Combat
+- Rock Slide
+
+# Choice Scarfed Terrakion
+Terrakion @ Choice Scarf
+Ability: Justified
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant nature
+- Rock Slide
+- Close Combat
+- Stone Edge / Double Kick
+- Earthquake / Poison Jab / Taunt
+
+# Choice Banded Terrakion
+Terrakion @ Choice Band
+Ability: Justified
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly nature
+- Rock Slide
+- Close Combat
+- Stone Edge / Double Kick
+- Earthquake / Poison Jab / Taunt
+
+### 26: Ferrothorn (4 Sets)
+
+# Standard Ferrothorn
+Ferrothorn @ Rocky Helmet / Leftovers / Lum Berry
+Ability: Iron Barbs
+EVs: 252 HP / 204 Atk / 52 SpD 
+IVs: 0 Spe
+Brave nature
+- Protect
+- Power Whip
+- Gyro Ball
+- Leech Seed / Knock Off
+
+# Physically Defensive Ferrothorn
+Ferrothorn @ Rocky Helmet / Leftovers / Lum Berry
+Ability: Iron Barbs
+EVs: 252 HP / 4 Atk / 252 Def
+IVs: 0 Spe
+Relaxed nature
+- Protect
+- Power Whip
+- Gyro Ball
+- Leech Seed / Knock Off
+
+# Specially Defensive Ferrothorn
+Ferrothorn @ Rocky Helmet / Leftovers / Lum Berry
+Ability: Iron Barbs
+EVs: 252 HP / 60 Def / 196 SpD
+IVs: 0 Spe
+Relaxed nature
+- Protect
+- Power Whip
+- Gyro Ball
+- Leech Seed / Knock Off
+
+# Choice Banded Ferrothorn
+Ferrothorn @ Rocky Helmet / Leftovers / Lum Berry
+Ability: Iron Barbs
+EVs: 252 HP / 204 Atk / 52 SpD 
+IVs: 0 Spe
+Brave nature
+- Power Whip
+- Gyro Ball
+- Knock Off
+- Explosion
+
+### 27: Breloom (2 Sets)
+
+# Standard Breloom
+Breloom @ Focus Sash
+Ability: Technician
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly nature
+- Protect
+- Spore
+- Bullet Seed
+- Mach Punch
+
+# Set is not fun to play against lol
+
+# Scarfed Breloom
+# Breloom @ Choice Scarf
+# Ability: Technician
+# EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+# Jolly nature
+# - Spore
+# - Bullet Seed
+# - Mach Punch
+# - Superpower / Rock Tomb
+
+### 28: Gastrodon (2 Sets)
+
+# Physically Defensive Gastrodon
+Gastrodon @ Expert Belt / Sitrus Berry / Rocky Helmet / Leftovers / Rindo Berry
+Ability: Storm Drain
+EVs: 252 HP / 116 Def / 140 SpD
+IVs: 0 Atk / 0 Spe
+Relaxed nature
+- Protect / Recover
+- Earth Power
+- Ice Beam / Icy Wind
+- Scald / Muddy Water
+
+# Modest Gastrodon
+Gastrodon @ Expert Belt / Sitrus Berry / Rocky Helmet / Leftovers / Rindo Berry
+Ability: Storm Drain
+EVs: 100 HP / 188 Def / 156 SpA / 60 SpD / 4 Spe
+IVs: 0 Atk
+Modest nature
+- Protect / Recover
+- Earth Power
+- Ice Beam / Icy Wind
+- Scald / Muddy Water
+
+### 29: Metagross (4 Sets)
+
+# Standard Mega Metagross
+Metagross @ Metagrossite
+Ability: Clear Body
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Jolly nature
+- Protect
+- Iron Head / Meteor Mash
+- Zen Headbutt
+- Bullet Punch / Ice Punch / Earthquake / Substitute
+
+# Fast Bulky Mega Metagross
+Metagross @ Metagrossite
+Ability: Clear Body
+EVs: 44 HP / 164 Atk / 44 Def / 4 SpD / 252 Spe
+Jolly nature
+- Protect
+- Iron Head / Meteor Mash
+- Zen Headbutt
+- Bullet Punch / Ice Punch / Earthquake / Substitute
+
+# Adamant Bulky Mega Metagross
+Metagross @ Metagrossite
+Ability: Clear Body
+EVs: 68 HP / 252 Atk / 52 Def / 100 SpD / 36 Spe
+Adamant Nature
+- Protect
+- Iron Head / Meteor Mash
+- Zen Headbutt
+- Bullet Punch / Ice Punch / Earthquake / Substitute
+
+# Assault Vest Metagross
+Metagross @ Assault Vest
+Ability: Clear Body
+EVs: 92 HP / 252 Atk / 4 Def / 4 SpD / 156 Spe
+Adamant Nature
+- Iron Head / Meteor Mash
+- Zen Headbutt
+- Bullet Punch / Ice Punch
+- Earthquake
+
+### 30: Mawile (4 Sets)
+
+# Standard Brave Mega Mawile
+Mawile @ Mawilite
+Ability: Intimidate
+EVs: 252 HP / 252 Atk / 4 SpD
+IVs: 0 Spe
+Brave nature
+- Protect
+- Sucker Punch
+- Play Rough
+- Iron Head
+
+# Bulky Brave Mega Mawile
+Mawile @ Mawilite
+Ability: Intimidate
+EVs: 252 HP / 156 Atk / 44 Def / 52 SpD
+IVs: 0 Spe
+Brave nature
+- Protect
+- Sucker Punch
+- Play Rough
+- Iron Head
+
+# Standard Adamant Mega Mawile
+Mawile @ Mawilite
+Ability: Intimidate
+EVs: 252 HP / 252 Atk / 4 SpD
+Adamant nature
+- Protect
+- Sucker Punch
+- Play Rough
+- Iron Head
+
+# Bulky Adamant Mega Mawile
+Mawile @ Mawilite
+Ability: Intimidate
+EVs: 252 HP / 156 Atk / 44 Def / 52 SpD / 4 Spe
+Adamant nature
+- Protect
+- Sucker Punch
+- Play Rough
+- Iron Head
+
+### 31: Arcanine (4 Sets)
+
+# Physically Defensive Arcanine
+Arcanine @ Leftovers / Safety Goggles / Sitrus Berry / Rocky Helmet
+Ability: Intimidate
+EVs: 252 HP / 148 Def / 36 SpA / 12 SpD / 60 Spe
+IVs: 0 Atk
+Bold Nature
+- Protect / Morning Sun
+- Will-O-Wisp
+- Snarl
+- Flamethrower / Overheat
+
+# Specially Defensive Arcanine
+Arcanine @ Leftovers / Safety Goggles / Sitrus Berry / Rocky Helmet
+Ability: Intimidate
+EVs: 252 HP / 84 Def / 4 SpA / 100 SpD / 68 Spe
+IVs: 0 Atk
+Calm nature
+- Protect / Morning Sun
+- Will-O-Wisp
+- Snarl
+- Flamethrower / Overheat 
+
+# Life Orb Arcanine
+Arcanine @ Life Orb
+Ability: Intimidate
+EVs: 44 HP / 204 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant nature
+- Protect
+- Flare Blitz
+- Close Combat
+- Wild Charge / Extreme Speed
+
+# Choice Band Arcanine
+Arcanine @ Choice Band
+Ability: Intimidate
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant nature
+- Flare Blitz
+- Close Combat
+- Wild Charge
+- Extreme Speed
+
+#### WIP Section
+# All of the sets below are not implemented / WIP, 
+# please feel free to submit requests / suggestions :)
+
+### 32: Garchomp ()
+### 33: Blaziken ()
+### 34: Venusaur ()
+### 35: Entei ()
+### 36: Gothitelle ()
+### 37: Whimsicott ()
+### 38: Jellicent ()
+### 39: Thundurus-Therian ()
+### 40: Scizor ()
+### 41: Togekiss ()
+
+### 42: Hitmontop ()
+### 43: Sableye ()
+### 44: Raichu ()
+### 45: Clefairy ()
+### 46: Latios ()
+### 47: Swampert ()
+### 48: Greninja ()
+### 49: Raikou ()
+### 50: Escavalier ()
+
+#### Mega Evolutions ####
+
+# All viable Mega-Evolution Pokemon
+# (Not included in the list above)
+# are included here.
+
+## XY Megas:
+
+# Megas Excluded: 
+# Ampharos, Aggron, Banette, 
+# Absol, Abomasnow
+
+### 51: Gyarados ()
+### 52: Blastoise ()
+### 53: Alakazam ()
+### 54: Pinsir ()
+### 55: Aerodactyl ()
+### 56: Heracross ()
+### 57: Houndoom ()
+### 58: Medicham ()
+### 59: Manectric ()
+### 60: Latias ()
+### 61: Lucario ()
+
+## ORAS Megas:
+
+# Megas Excluded:
+# Beedrill, Slowbro, Steelix, 
+# Swampert, Sharpedo, Glalie, 
+# Gallade, Audino
+
+### 62: Pidgeot ()
+### 63: Sceptile ()
+### 64: Camerupt ()
+### 65: Altaria ()
+### 66: Lopunny ()
+
+#### Other Pokemon ####
+
+# All other Pokemon that didn't make the cut 
+# based on usage, but I thought were cool 
+# / worth adding, are here. I'm open to 
+# adding new pokemon / sets as they are 
+# suggested, as long as they are at least 
+# somewhat viable and not *too* obscure :)
+
+### 67: Virizion
+### 68: Mamoswine
+### 69: Weavile
+### 70: Liepard
+### 71: Machamp
+### 72: Porygon2
+### 73: Infernape
+### 74: Landorus
+### 75: Porygon-Z

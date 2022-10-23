@@ -1,0 +1,30 @@
+###### USUM Battle Spot Doubles (VGC 2018) ######
+
+# This file contains all of the sets for USUM Battle 
+# Spot doubles, and is compiled into JSON format 
+# for use with Pokemon Showdown using a Python script.
+
+##### File Format:
+# Anything enclosed in [] is optional
+# Any line starting with '#' is commented
+# and will be ignored by the compiler 
+
+# Comments do not currently work in the middle of lines!
+
+# Species (Nickname) @ Item1 / Item2 / ... / itemN
+# Ability: Ability1 / Ability2 / ... / AbilityN
+# EVs: [n HP] / [n Atk] / [n Def] / [n SpD] / [n Spe]
+# [IVs: [n HP] / [n Atk] / [n Def] / [n SpD] / [n Spe]]
+# Nature nature
+# - MoveOption1 / MoveOption2 / ... /MoveOptionN
+# - MoveOption1 / MoveOption2 / ... /MoveOptionN
+# - MoveOption1 / MoveOption2 / ... /MoveOptionN
+# - MoveOption1 / MoveOption2 / ... /MoveOptionN
+
+##### Changelog
+
+# 24/10/2022: File created
+
+#### WIP Section
+# All of the sets below are not implemented / WIP, 
+# please feel free to submit requests / suggestions :)

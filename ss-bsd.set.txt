@@ -1,0 +1,37 @@
+###### SWSH Victory Station Doubles (VGC 2021 Series 7) ######
+
+# This file contains all of the sets for SWSH Victory 
+# Station Doubles, and is compiled into JSON format 
+# for use with Pokemon Showdown using a Python script.
+
+# There were a lot of 'Victory Station Doubles' formats
+# to choose from in Sword and Shield, so I may end up
+# implementing a few different formats for it. For now,
+# I've decided to focus just on Series 7 (Basically 
+# national dex) and potentially Spikemuth Cup if 
+# there is enough demand.
+
+##### File Format:
+# Anything enclosed in [] is optional
+# Any line starting with '#' is commented
+# and will be ignored by the compiler 
+
+# Comments do not currently work in the middle of lines!
+
+# Species (Nickname) @ Item1 / Item2 / ... / itemN
+# Ability: Ability1 / Ability2 / ... / AbilityN
+# EVs: [n HP] / [n Atk] / [n Def] / [n SpD] / [n Spe]
+# [IVs: [n HP] / [n Atk] / [n Def] / [n SpD] / [n Spe]]
+# Nature nature
+# - MoveOption1 / MoveOption2 / ... /MoveOptionN
+# - MoveOption1 / MoveOption2 / ... /MoveOptionN
+# - MoveOption1 / MoveOption2 / ... /MoveOptionN
+# - MoveOption1 / MoveOption2 / ... /MoveOptionN
+
+##### Changelog
+
+# 24/10/2022: File created
+
+#### WIP Section
+# All of the sets below are not implemented / WIP, 
+# please feel free to submit requests / suggestions :)
