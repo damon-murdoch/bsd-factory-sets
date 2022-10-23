@@ -14,20 +14,34 @@ finally Black and White 2.
 
 ### File Format
 The file format is as follows:
-* Anything enclosed in [] is optional
+* Most lines except for the first line (Species) are optional
 * Any line starting with '#' is commented and will be ignored by the compiler 
 * Comments do not currently work in the middle of lines!
 
 ```
-Species (Nickname) @ Item1 / Item2 / ... / itemN
+Nickname (Species) @ Item1 / Item2 / ... / itemN
 Ability: Ability1 / Ability2 / ... / AbilityN
-EVs: [n HP] / [n Atk] / [n Def] / [n SpD] / [n Spe]
-[IVs: [n HP] / [n Atk] / [n Def] / [n SpD] / [n Spe]]
+EVs: n HP / n Atk / n Def / n SpD / n Spe
+IVs: n HP / n Atk / n Def / n SpD / n Spe
 Nature nature
 - MoveOption1 / MoveOption2 / ... /MoveOptionN
 - MoveOption1 / MoveOption2 / ... /MoveOptionN
 - MoveOption1 / MoveOption2 / ... /MoveOptionN
 - MoveOption1 / MoveOption2 / ... /MoveOptionN
+```
+
+Example:
+
+```
+# Standard Landorus
+Landorus-Therian @ Choice Scarf / Assault Vest
+Ability: Intimidate
+EVs: 4 HP / 244 Atk / 4 Def / 4 SpD / 252 Spe
+Adamant nature
+- U-turn
+- Earthquake
+- Rock Slide
+- Superpower / Knock Off
 ```
 
 ### Version
